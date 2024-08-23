@@ -15,7 +15,7 @@
 
     <br><hr>
 
-    <form action="/datos" method="get">
+    <form action="/datos" method="post">
 
     <!-- Campo de tipo texto -->
     <label for="texto">Campo de texto</label>
@@ -25,7 +25,7 @@
     <!-- Campo de tipo contraseña -->
     <label for="clave">Campo de constraseña</label>
     <input type="password" id="clave" name="clave" placeholder="Ingrese su contraseña">
-    </form>
+
     <br><br>
 
     <!-- campo de tipo email -->
@@ -90,9 +90,25 @@
     <input type="checkbox" id="seleccion" name="seleccion">
     <br><br>
 
-    <!-- campo de cargar un archivo-->
+    <!-- campo de cargar un archivo -->
     <label for="archivo">Campo de Archivo</label>
     <input type="file" id="archivo" name="archivo">
     <br><br>
+    
+    <!-- etiqueta boton de envia  -->
+    <input type="submit" value="enviar">
+    <br><br>
+
+     <!-- boton para reiniciar los campos del formulario  -->
+     <input type="reset" value="Reiniciar">
+     <br><br>
+
+   <!-- boton con una imagen -->
+     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdI5h6LZxis-xvMA-mioIFBUdBqrofceIn1A&s" alt="enviar">
+     <br><br>
+
+     <button type="submit">Mi boton </button>
+
+    </form>
 </body>
 </html>
