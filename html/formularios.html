@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
 </head>
+
 <body>
 
-    <h1>Formularios</h1>
+  <h1>Formularios</h1>
 
-    <hr>
+  <hr>
 
-    <a href="index.html">Regresar al inicio</a>
+  <a href="index.html">Regresar al inicio</a>
 
-    <br><hr>
+  <br>
+  <hr>
 
-    <form action="/datos" method="post">
+  <form action="/datos" method="post">
 
     <!-- Campo de tipo texto -->
     <label for="texto">Campo de texto</label>
     <input type="text" id="texto" name="texto" placeholder="ingrese texto">
     <br><br>
-    
+
     <!-- Campo de tipo contraseña -->
     <label for="clave">Campo de constraseña</label>
     <input type="password" id="clave" name="clave" placeholder="Ingrese su contraseña">
@@ -30,12 +33,12 @@
 
     <!-- campo de tipo email -->
     <label for="correo">Campo de email</label>
-    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" >
+    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo">
     <br><br>
 
     <!-- campo de tipo telefono -->
     <label for="telefono">Campo de telefono</label>
-    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su  telefono" minlength="1" maxlength="10" >
+    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su  telefono" minlength="1" maxlength="10">
 
     <br><br>
 
@@ -58,22 +61,22 @@
     <label for="fecha">Campo de rango</label>
     <input type="date" id="fecha" name="fecha">
     <br><br>
-     
+
     <!-- campo de tipo hora -->
     <label for="hora">Campo de hora</label>
     <input type="time" id="hora" name="hora">
     <br><br>
-     
+
     <!-- campo de fecha y hora-->
     <label for="datetime">Campo de fecha y hora</label>
     <input type="datetime-local" id="datetime" name="datetime">
     <br><br>
-     
+
     <!-- campo de mes-->
     <label for="mes">Campo de mes</label>
     <input type="month" id="mes" name="mes">
     <br><br>
-     
+
     <!-- campo de semana-->
     <label for="semana">Campo de semana</label>
     <input type="week" id="semana" name="semana">
@@ -94,21 +97,23 @@
     <label for="archivo">Campo de Archivo</label>
     <input type="file" id="archivo" name="archivo">
     <br><br>
-    
+
     <!-- etiqueta boton de envia  -->
     <input type="submit" value="enviar">
     <br><br>
 
-     <!-- boton para reiniciar los campos del formulario  -->
-     <input type="reset" value="Reiniciar">
-     <br><br>
+    <!-- boton para reiniciar los campos del formulario  -->
+    <input type="reset" value="Reiniciar">
+    <br><br>
 
-   <!-- boton con una imagen -->
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdI5h6LZxis-xvMA-mioIFBUdBqrofceIn1A&s" alt="enviar">
-     <br><br>
+    <!-- boton con una imagen -->
+    <input type="image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdI5h6LZxis-xvMA-mioIFBUdBqrofceIn1A&s" alt="enviar">
+    <br><br>
 
-     <button type="submit">Mi boton </button>
+    <button type="submit">Mi boton </button>
 
-    </form>
+  </form>
 </body>
+
 </html>
