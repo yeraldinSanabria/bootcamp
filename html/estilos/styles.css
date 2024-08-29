@@ -1,0 +1,30 @@
+p {
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#intro {
+    color: aqua;
+    font-size: 20px;
+}
+
+#logo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.tipo {
+    color: deeppink;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
