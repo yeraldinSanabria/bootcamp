@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de atributos CSS</title>
+    <link rel="stylesheet" href="estilos/styles_tabla_css.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="max-content">
+            <h1>Tabla</h1>
+        </header>
+        <main class="max-content">
+            <section>
+                <a href="index.html">Regresar</a>
+                <table border="3">
+                    <thead>
+                        <tr>
+                            <th>Categoria</th>
+                            <th>Propiedad</th>
+                            <th>Descripción</th>
+                            <th>Ejemplo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Text -->
+                        <tr>
+                            <td rowspan="5">Texto -- Text</td>
+                            <td>color</td>
+                            <td>Define el color del texto.</td>
+                            <td>color: #ff0000;</td>
+                        </tr>
+                        <tr>
+                            <td>font-size</td>
+                            <td>Especifica el tamaño de la fuente.</td>
+                            <td>font-size: 16px;</td>
+                        </tr>
+                        <tr>
+                            <td>text-align</td>
+                            <td>Especifica cómo se alinea el texto dentro de un elemento.</td>
+                            <td>text-align: center;</td>
+                        </tr>
+                        <tr>
+                            <td>text-transform</td>
+                            <td>Controla la capitalización del texto.</td>
+                            <td>text-transform: uppercase;</td>
+                        </tr>
+                        <tr>
+                            <td>line-height</td>
+                            <td>Establece la altura de la línea.</td>
+                            <td>line-height: 1.5;</td>
+                        </tr>
+
+                        <!-- Background -->
+                        <tr>
+                            <td rowspan="4">Fondo -- Background</td>
+                            <td>background-color</td>
+                            <td>Establece el color de fondo de un elemento.</td>
+                            <td>background-color: #00ff00;</td>
+                        </tr>
+                        <tr>
+                            <td>background-image</td>
+                            <td>Especifica una imagen de fondo para un elemento.</td>
+                            <td>background-image: url('image.jpg');</td>
+                        </tr>
+                        <tr>
+                            <td>background-position</td>
+                            <td>Establece la posición inicial de una imagen de fondo.</td>
+                            <td>background-position: center;</td>
+                        </tr>
+                        <tr>
+                            <td>background-size</td>
+                            <td>Controla el tamaño de la imagen de fondo.</td>
+                            <td>background-size: cover;</td>
+                        </tr>
+
+                        <!-- Box Model -->
+                        <tr>
+                            <td rowspan="6">Modelo de caja -- Box Model</td>
+                            <td>margin</td>
+                            <td>Define el espacio exterior de un elemento.</td>
+                            <td>margin: 10px;</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>Establece el espacio interior de un elemento.</td>
+                            <td>padding: 20px;</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>Especifica el borde de un elemento.</td>
+                            <td>border: 1px solid #000000;</td>
+                        </tr>
+                        <tr>
+                            <td>width</td>
+                            <td>Define la anchura de un elemento.</td>
+                            <td>width: 100px;</td>
+                        </tr>
+                        <tr>
+                            <td>height</td>
+                            <td>Define la altura de un elemento.</td>
+                            <td>height: 200px;</td>
+                        </tr>
+                        <tr>
+                            <td>box-sizing</td>
+                            <td>Define cómo se calculan las dimensiones de un elemento.</td>
+                            <td>box-sizing: border-box;</td>
+                        </tr>
+
+                        <!-- Positioning -->
+                        <tr>
+                            <td rowspan="6">Posicionamiento -- Positioning</td>
+                            <td>position</td>
+                            <td>Determina cómo se posiciona un elemento en el documento.</td>
+                            <td>position: absolute;</td>
+                        </tr>
+                        <tr>
+                            <td>top</td>
+                            <td>Establece la posición superior de un elemento posicionado.</td>
+                            <td>top: 10px;</td>
+                        </tr>
+                        <tr>
+                            <td>left</td>
+                            <td>Establece la posición izquierda de un elemento posicionado.</td>
+                            <td>left: 20px;</td>
+                        </tr>
+                        <tr>
+                            <td>z-index</td>
+                            <td>Controla el orden en el que se apilan los elementos.</td>
+                            <td>z-index: 100;</td>
+                        </tr>
+                        <tr>
+                            <td>float</td>
+                            <td>Hace que un elemento flote a la izquierda o derecha.</td>
+                            <td>float: left;</td>
+                        </tr>
+                        <tr>
+                            <td>clear</td>
+                            <td>Especifica si un elemento debe ser movido debajo de los elementos flotantes.</td>
+                            <td>clear: both;</td>
+                        </tr>
+
+                        <!-- Flexbox -->
+                        <tr>
+                            <td rowspan="5">Caja flexible -- Flexbox</td>
+                            <td>display</td>
+                            <td>Controla cómo se muestra un elemento en la página.</td>
+                            <td>display: flex;</td>
+                        </tr>
+                        <tr>
+                            <td>flex-direction</td>
+                            <td>Establece la dirección en la que los elementos secundarios de un contenedor flexible se
+                                colocan.
+                            </td>
+                            <td>flex-direction: row;</td>
+                        </tr>
+                        <tr>
+                            <td>justify-content</td>
+                            <td>Define cómo se distribuyen los elementos dentro de un contenedor flexible.</td>
+                            <td>justify-content: space-between;</td>
+                        </tr>
+                        <tr>
+                            <td>align-items</td>
+                            <td>Establece la alineación predeterminada de los elementos flexibles en el eje cruzado.
+                            </td>
+                            <td>align-items: center;</td>
+                        </tr>
+                        <tr>
+                            <td>flex-wrap</td>
+                            <td>Controla si los elementos secundarios se envuelven en una nueva línea o no.</td>
+                            <td>flex-wrap: wrap;</td>
+                        </tr>
+
+                        <!-- Grid -->
+                        <tr>
+                            <td rowspan="5">Grilla para organizar la vista -- Grid</td>
+                            <td>display</td>
+                            <td>Define un contenedor de cuadrícula y activa el contexto de cuadrícula de sus elementos
+                                secundarios.</td>
+                            <td>display: grid;</td>
+                        </tr>
+                        <tr>
+                            <td>grid-template-columns</td>
+                            <td>Especifica el número (y el ancho) de columnas en una cuadrícula.</td>
+                            <td>grid-template-columns: 1fr 2fr;</td>
+                        </tr>
+                        <tr>
+                            <td>grid-template-rows</td>
+                            <td>Especifica el número (y la altura) de filas en una cuadrícula.</td>
+                            <td>grid-template-rows: 100px auto;</td>
+                        </tr>
+                        <tr>
+                            <td>grid-gap</td>
+                            <td>Define el espacio entre filas y columnas en la cuadrícula.</td>
+                            <td>grid-gap: 10px;</td>
+                        </tr>
+                        <tr>
+                            <td>justify-items</td>
+                            <td>Alinea los elementos secundarios a lo largo del eje horizontal en la cuadrícula.</td>
+                            <td>justify-items: start;</td>
+                        </tr>
+
+                        <!-- Animations -->
+                        <tr>
+                            <td rowspan="5">Animaciones -- Animations</td>
+                            <td>animation</td>
+                            <td>Aplica una o más animaciones a un elemento.</td>
+                            <td>animation: slide 2s infinite;</td>
+                        </tr>
+                        <tr>
+                            <td>animation-name</td>
+                            <td>Especifica el nombre de la animación que debe ser aplicada.</td>
+                            <td>animation-name: fadeIn;</td>
+                        </tr>
+                        <tr>
+                            <td>animation-duration</td>
+                            <td>Especifica la duración de una animación.</td>
+                            <td>animation-duration: 3s;</td>
+                        </tr>
+                        <tr>
+                            <td>animation-timing-function</td>
+                            <td>Define cómo avanza la animación en cada ciclo.</td>
+                            <td>animation-timing-function: ease-in-out;</td>
+                        </tr>
+                        <tr>
+                            <td>animation-delay</td>
+                            <td>Especifica un retraso antes de que comience la animación.</td>
+                            <td>animation-delay: 1s;</td>
+                        </tr>
+
+                        <!-- Transformations -->
+                        <tr>
+                            <td rowspan="3"> Transformación -- Transformations</td>
+                            <td>transform</td>
+                            <td>Aplica una transformación 2D o 3D a un elemento.</td>
+                            <td>transform: rotate(45deg);</td>
+                        </tr>
+                        <tr>
+                            <td>transform-origin</td>
+                            <td>Define el punto de origen para una transformación.</td>
+                            <td>transform-origin: center;</td>
+                        </tr>
+                        <tr>
+                            <td>perspective</td>
+                            <td>Establece una perspectiva 3D para un elemento.</td>
+                            <td>perspective: 1000px;</td>
+                        </tr>
+
+                        <!-- Transitions -->
+                        <tr>
+                            <td rowspan="5"> Transición -- Transitions</td>
+                            <td>transition</td>
+                            <td>Especifica el efecto de transición entre dos estados de un elemento.</td>
+                            <td>transition: all 0.3s ease;</td>
+                        </tr>
+                        <tr>
+                            <td>transition-property</td>
+                            <td>Define las propiedades a las que se aplica la transición.</td>
+                            <td>transition-property: opacity;</td>
+                        </tr>
+                        <tr>
+                            <td>transition-duration</td>
+                            <td>Establece la duración de la transición.</td>
+                            <td>transition-duration: 0.5s;</td>
+                        </tr>
+                        <tr>
+                            <td>transition-timing-function</td>
+                            <td>Especifica la velocidad de la curva de la transición.</td>
+                            <td>transition-timing-function: linear;</td>
+                        </tr>
+                        <tr>
+                            <td>transition-delay</td>
+                            <td>Define un retraso antes de que comience la transición.</td>
+                            <td>transition-delay: 0.2s;</td>
+                        </tr>
+
+                        <!-- Responsive Design -->
+                        <tr>
+                            <td rowspan="4">Diseño Responsivo -- Responsive Design</td>
+                            <td>media-queries</td>
+                            <td>Aplica estilos condicionalmente según el tamaño de la pantalla u otras características
+                                del
+                                dispositivo.</td>
+                            <td>@media (max-width: 600px) { body { font-size: 14px; } }</td>
+                        </tr>
+                        <tr>
+                            <td>viewport</td>
+                            <td>Controla el tamaño y la escala de la ventana gráfica de un documento.</td>
+                            <td>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>flexbox</td>
+                            <td>Ayuda a crear diseños adaptativos y flexibles.</td>
+                            <td>display: flex;</td>
+                        </tr>
+                        <tr>
+                            <td>grid</td>
+                            <td>Permite crear diseños de cuadrícula que se adaptan a diferentes tamaños de pantalla.
+                            </td>
+                            <td>display: grid;</td>
+                        </tr>
+
+                        <!-- Other -->
+                        <tr>
+                            <td rowspan="5"> Otra -- Other</td>
+                            <td>opacity</td>
+                            <td>Controla la opacidad de un elemento.</td>
+                            <td>opacity: 0.5;</td>
+                        </tr>
+                        <tr>
+                            <td>cursor</td>
+                            <td>Especifica el tipo de cursor que se muestra cuando se pasa el mouse sobre un elemento.
+                            </td>
+                            <td>cursor: pointer;</td>
+                        </tr>
+                        <tr>
+                            <td>overflow</td>
+                            <td>Controla cómo se maneja el contenido desbordado de un elemento.</td>
+                            <td>overflow: hidden;</td>
+                        </tr>
+                        <tr>
+                            <td>visibility</td>
+                            <td>Define si un elemento es visible o no.</td>
+                            <td>visibility: hidden;</td>
+                        </tr>
+                        <tr>
+                            <td>clip</td>
+                            <td>Define una región de recorte para un elemento.</td>
+                            <td>clip: rect(0, 0, 100px, 100px);</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>Son los atributos más utilizados en CSS</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    color: blue;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(228, 244, 243);
+}
+/* el container se enfonca en que height ocupe el 100% y se divida en 3 fracciones a lo alto*/
+.container { 
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.max-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer{
+    color: blue;
+    text-align: center;
+    background-color: aliceblue;
+}
