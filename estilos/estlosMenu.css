@@ -1,0 +1,106 @@
+/*Estilos para el menu de navegacion  */
+
+.navbar {
+    display: flex;
+    /*el flex se utiliza para distribuir el cntenido de forma horizontal*/
+    justify-content: space-between;
+    /*es el espacio entre los elementos a lo largo del eje principal */
+    align-items: center;
+    /*alinea los elementos verticalmente */
+    background-color: rgb(38, 34, 34);
+    /*Es el color de fondo del div principal*/
+    padding: 10 px;
+    /* espacio entre los elementos*/
+}
+
+/* tiqueta del logo */
+
+.logo a {
+    color: rgb(255, 39, 82);
+    /* color del texto que dice logo*/
+    text-decoration: none;
+    /* Elimina el subrayado del enlace del logo*/
+    font-size: 24px;
+    /*Tamaño de la fuente*/
+}
+
+/* */
+
+.nav_links {
+    list-style: none;
+    /*Elimina los puntos de las listas*/
+    display: flex;
+    /*se  utiliza para distribuir los elementos*/
+    gap: 15px;
+    /*espacio entre cada enlace */
+}
+
+.nav_links li a {
+    color: blanchedalmond;
+    /*color de texto*/
+    text-decoration: none;
+    /*Elimina el subrrayado de los enlaces*/
+    padding: 8px 15px;
+}
+
+.dropdown {
+    position: relative;
+    /*posiciona el contenedor del dropdown*/
+}
+
+.dropdown_content a {
+    padding: 12px 16px;
+    /*Es el espacio interno alrededor de los enlaces*/
+    text-decoration: none;
+    /*elimina el subrrayado*/
+    display: block;
+    /*Hace que ocupe el ancho del contenido*/
+}
+
+
+.dropdown_content {
+    display: none;
+    /*Hace que oculte el contenido del dropdown*/
+    position: absolute;
+    /*Posiciona el contenido del dropdown de forma absoluta respecto a su contenedor*/
+    background-color: blueviolet;
+    /*color de fondo del contenido del dropdown en blanco*/
+    min-width: 120px;
+    /*Ancho minimo del conetenido del dropdown*/
+    box-shadow: 0px 8px 16px rgb(18, 18, 19);
+    /*sombrea al rededor del dropdown para dar un efecto de profundidad*/
+
+}
+
+/* muestra el contenido del dropdown al pasar el cursor sobre el contenido  */
+
+.dropdown:hover .dropdown_content {
+    display: block;
+    /* muestra el contenido cuando el cursos entra sobre el elemento*/
+}
+
+
+/*Estilos para los enlaces de navegacion al pasar el cursos sobre ellos */
+
+.nav_links li a:hover {
+    background-color: blue;
+    /*color de fondo del enlace al pasar el cursor sobre el */
+    border-radius: 4px;
+    /*bordes redondos para el fondo del enlace*/
+}
+.label{
+    border-bottom: red;
+}
+
+.boton{
+    background-color: aqua;
+    border-radius: 4px;
+    
+}
+/* */
+.logo img{
+    width: 40px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
