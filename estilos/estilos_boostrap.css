@@ -1,0 +1,25 @@
+.accordion-button {
+    background-color: rgb(125, 9, 233);
+}
+
+.accordion-header {
+    margin-bottom: 15px;
+}
+
+b, strong {
+    background: yellow;
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: rgb(255, 188, 5);
+}
+
+body{
+    background-color:aqua;
+}
+
+.container{
+    margin: 20px;
+    padding: 50px;
+}
