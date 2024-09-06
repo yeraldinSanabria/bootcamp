@@ -1,0 +1,90 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /*srive para darle el mismo tipo de letra en toda la pagina*/
+  margin: 0; /*quitar las margenes*/
+  padding: 0; /*quita la margen interna que trae por defecto*/
+}
+
+body {
+  background: white; /*da color de fondo*/
+}
+
+.max-content {
+  width: 90%; /*da el ancho*/
+  max-width: 1200px; /*es el ancho maximo*/
+  margin: 0 auto; /*margen*/
+}
+
+.container {
+  min-height: 100dvh; /*minimo de alto*/
+  display: grid; /*para que tenga una grilla de elementos*/
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background-color: #4cd2b7;
+  color: #64145c;
+  text-align: center; /*centra el texto*/
+}
+
+/*estilo que se da cuando el mause pasa por encima del elemento*/
+header a:hover {
+  color: rgb(247, 151, 7);
+}
+
+section article {
+  transition: box-shadow 0.3s ease;
+  background-color: #61e0d8;
+  border-radius: 8px;
+  padding: 4px 0;
+  cursor: pointer; /*cambia el estilo del crsor al pasar en cierta parte*/
+  max-width: 400px;
+  margin: 15px auto;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+}
+/*El hover es un estilo que se aplica cuando el usuario pasa el cursor sobre el elemento*/
+section article:hover {
+  box-shadow: 0 1.6px 6.4px rgb(26, 27, 26, 0.3); /*aPLICA ESTILO SOMBRA SOBRE EL ELEMENTO*/
+}
+
+section article h2 {
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box; /*para que las margenes se  queden internas y no agranden el elemento*/
+}
+
+section article p {
+  text-align: justify;
+  padding: 10px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: #4cd2b7;
+  color: #64145c;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: #64145c;
+  text-decoration: none; /*quita la linea del hipervinculo*/
+}
+
+footer a:hover {
+  color: rgb(247, 151, 7);
+}
+
+footer ul li {
+  list-style: none; /*quitar elestilo de las listas*/
+  display: inline-block; /*alinea los elementos en bloque uno al lado del otro*/
+  min-width: 130px; /*mino de ancho*/
+}
+
+footer p {
+  margin-top: 15px; /*margen superior*/
+}
